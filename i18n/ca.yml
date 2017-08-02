@@ -1,0 +1,13 @@
+email_settings:
+  title: Configuració correu electrònic
+  form:
+    smtp:
+      caption: SMTP
+      from: Des de (correu electrònic)
+      host: Host
+      port: Port
+      username: Usuari
+      password: Clau
+      domain: Domini
+      authentication: Autenticació
+      starttls_auto: Starttls auto 

@@ -1,0 +1,13 @@
+email_settings:
+  title: Email account configuration
+  form:
+    smtp:
+      caption: SMTP
+      from: From
+      host: Host
+      port: Port
+      username: Username
+      password: Password
+      domain: Domain
+      authentication: Authentication
+      starttls_auto: Starttls auto 

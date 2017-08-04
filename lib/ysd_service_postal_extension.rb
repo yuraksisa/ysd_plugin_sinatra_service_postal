@@ -14,7 +14,7 @@ module Huasi
     #
     def install(context={})
 
-        SystemConfiguration::SecureVariable.first_or_create(
+      SystemConfiguration::SecureVariable.first_or_create(
           {:name => 'smtp.from'},
           {:value => '.',
            :description => 'smtp settings : from address',
